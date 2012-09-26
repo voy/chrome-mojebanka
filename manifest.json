@@ -1,0 +1,10 @@
+{
+    "name": "Mojebanka",
+    "version": "1.0",
+    "manifest_version": 2,
+    "content_scripts": [{
+        "matches": ["*://*.mojebanka.cz/*"],
+        "css": ["mojebanka.css"],
+        "js": ["mojebanka.js"]
+    }]
+}
